@@ -1,0 +1,287 @@
+.header
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.header_info
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    margin-left: 60px;
+    width: 150px;
+    height: 25px;
+    margin-top: -10px;
+}
+
+.header_info_text
+{
+    margin-right: 75px;
+    margin-top: 7px;
+    font: normal 500 15px 'Montserrat';
+    color: #000000;
+    line-height: 20px;
+}
+
+.header_info_button
+{
+    margin-top: -10px;
+    width: 226px;
+    height: 50px;
+    font: normal 600 15px 'Montserrat';
+    color: white;
+    background: #05090C;
+    border-radius: 3px;
+    padding: 12px 2px;
+    text-align: center;
+}
+
+.promo
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo-wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-wrapper_image
+{
+    width: 690px;
+    height: 545px;
+    margin-top: 42px;
+}
+
+.promo_header
+{
+    font: normal 700 90px/0.815 'Montserrat';
+    width: 100%;
+    height: 30px;
+    color: #000000;
+    margin-top: 17px;
+    margin-right: 90px;
+    margin-left: 75px;
+}
+
+.pink__text
+{
+    color:#ee58b6
+}
+
+.promo_text
+{
+    font: normal 100 23px 'Roboto Condensed';
+    width: 100%;
+    height: 50px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 79px;
+    margin-left: 75px;
+}
+
+.promo_button
+{
+    width: 300px;
+    height: 50px;
+    font: normal 500 15px 'Montserrat';
+    color: white;
+    background: #05090C;
+    border-radius: 5px;
+    padding: 11px 35px;
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 75px;
+}
+
+.course_features
+{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #05090C;
+    width: 100%;
+    height: 360px;
+}
+
+.course_features_item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 35px;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+
+.course_features_item-text
+{
+    font: normal 300 18px 'Roboto Condensed';
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.course-info
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-info_item
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-info_wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-info_wrapper-column
+{
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.course-info_img-finances
+{
+    width: 100%;
+    margin-left: 250px;
+    margin-top: -102px;
+}
+
+.course-info_title
+{
+    width: 800px;
+    font: normal 500 43px 'Montserrat';
+    margin-left: 30px;
+    margin-top: 140px;
+}
+
+.course-info_text
+{
+    font: normal 400 16px 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+    padding-left: 27px;
+}
+
+.course-info_img-finances
+{
+    width: 500px;
+    height: 430px;
+    margin-top: 65px;
+}
+
+.course-info_img-mind
+{
+    width: 340px;
+    height: 580px;
+    padding-right: 150px;
+}
+
+.course-info_title-deadline
+{
+    width: 800px;
+    font: normal 500 43px 'Montserrat';
+    margin-top: 155px;
+    padding-left: 290px;
+}
+
+.course-info_text-deadline
+{
+    font: normal 400 16px 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+    padding-left: 290px;
+}
+
+.course
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course_title
+{
+    font: normal 500 43px 'Montserrat';
+    text-align: center;
+    margin-top: 105px;
+}
+
+.course_text
+{
+    font: normal 300 16px 'Roboto Condensed';
+    color: white;
+}
+
+.course_container
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 322px 322px 322px;
+    grid-column-gap: 25px;
+    justify-items: center;
+}
+
+.course-card
+{
+    width: 100%;
+    max-width: 358px;
+    height: 170px;
+    background: #000;
+    margin: 0 20px 30px 0;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.section 
+{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer 
+{
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0;
+    margin-top: 230px;
+}
+
+
+
