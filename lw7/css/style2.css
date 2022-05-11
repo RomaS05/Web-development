@@ -36,7 +36,6 @@
     margin-top: 7px;
     font: normal 500 15px 'Montserrat';
     color: #000000;
-    line-height: 20px;
 }
 
 .header__info__button
@@ -74,13 +73,13 @@
     margin-top: 42px;
 }
 
-.promo__header
+.promo__title
 {
     font: normal 700 90px/0.815 'Montserrat';
     width: 100%;
     height: 30px;
     color: #000000;
-    margin-top: 17px;
+    margin-top: 2px;
     margin-right: 90px;
     margin-left: 75px;
 }
@@ -93,7 +92,7 @@
 .promo__text
 {
     font: normal 100 23px 'Roboto Condensed';
-    width: 100%;
+    width: 550px;
     height: 50px;
     color: rgba(0, 0, 0, 0.7);
     margin-top: 79px;
@@ -110,11 +109,11 @@
     border-radius: 5px;
     padding: 11px 35px;
     text-align: center;
-    margin-top: 16px;
+    margin-top: 46px;
     margin-left: 75px;
 }
 
-.course__features
+.features__container
 {
     margin-top: 65px;
     display: flex;
@@ -137,9 +136,11 @@
 
 .course__features__item--text
 {
-    font: normal 300 18px 'Roboto Condensed';
+    font: normal 300 20px 'Roboto Condensed';
     color: #FFFFFF;
     text-align: center;
+    width: 310px;
+    height: 50px;
 }
 
 .course-info
@@ -193,6 +194,7 @@
     font: normal 400 16px 'Roboto Condensed';
     color: rgba(0, 0, 0, 0.7);
     padding-left: 100px;
+    width: 550px;
 }
 
 .course-info__img--mind
