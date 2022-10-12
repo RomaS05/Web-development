@@ -1,0 +1,96 @@
+.header__title 
+{ 
+    height: 33px;
+    font: normal bold 25px/0.8 'Montserrat';
+    width: 170px;
+    color: #000000;
+    margin-left: 79px;
+    margin-top: 32px;
+}
+.pink__word
+{
+  color:#ee58b6;
+}
+.header__about
+{
+    width: 167px;
+    height: 20px;
+    font: normal 500 13px 'Montserrat';
+    color: #000000;
+    margin-left: 79px;
+}
+.header__question
+{
+    width: 167px;
+    height: 20px;
+    font: normal 500 13px 'Montserrat';
+    color: #000000;
+    margin-left: 79px;
+    margin-top: 3px;
+}
+.header__author
+{
+    width: 167px;
+    height: 20px;
+    font: normal 500 13px 'Montserrat';
+    color: #000000;
+    margin-left: 79px;
+    margin-top: 17px;
+}
+.header__button
+{
+    width: 200px;
+    height: 20px;
+    font: normal 500 13px 'Montserrat';
+    color: white;
+    background: #05090C;
+    border-radius: 5px;
+    padding: 12px 2px;
+    text-align: center;
+    margin-left: 79px;
+    margin-top: 28px;
+}
+.course__header
+{
+    font: normal 700 80px/0.815 'Montserrat';
+    width: 700px;
+    height: 30px;
+    color: #000000;
+    margin-left: 74px;
+    margin-top: 50px;
+}
+.pink__text
+{
+    color:#ee58b6
+}
+.course__for
+{
+    font: normal 100 21px 'Roboto Condensed';
+    width: 500px;
+    height: 50px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 74px;
+    margin-top: -13px;
+}
+.course__button
+{
+    width: 200px;
+    height: 20px;
+    font: normal 500 13px 'Montserrat';
+    color: white;
+    background: #05090C;
+    border-radius: 5px;
+    padding: 11px 35px;
+    text-align: center;
+    margin-left: 74px;
+    margin-top: 42px;
+}
+.course__image
+{
+    width: 620px;
+    height: 515px;
+    margin-left: 58px;
+    margin-top: 52px;
+}
+
+
